@@ -458,6 +458,13 @@ Config.MenuItems = {
                         shouldClose = false
                     }
                 }
+            }, {
+                id = 'vehicleflip',
+                title = 'Flip Vehicle',
+                icon = 'box-open',
+                type = 'client',
+                event = 'vehicle:flipit',
+                shouldClose = true
             }
         }
     },

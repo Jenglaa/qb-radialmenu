@@ -25,3 +25,8 @@ end)
 QBCore.Commands.Add("putintrunk", Lang:t("general.putintrunk_command_desc"), {}, false, function(source)
     TriggerClientEvent('qb-trunk:server:KidnapTrunk', source)
 end)
+
+RegisterNetEvent('vehicle:flipit')
+AddEventHandler('vehicle:flipit', function()
+    TriggerClientEvent('vehicle:flipit')
+end)
